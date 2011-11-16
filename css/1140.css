@@ -11,7 +11,7 @@ figure img{width:100%}
 
 body {
   font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   color: #060;
   min-width: 300px;
 }
@@ -23,14 +23,14 @@ h1, h2, h3, h4 {
   color: #444;
   background: transparent;
   text-align: center;
-  margin: 16px 0 0 0;
-  border: 1px solid #ccc;
+  margin: 15px 0 0 0;
+  border: 1px solid #bbb;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
-	-moz-box-shadow: 1px 1px 3px #aaa;
-  -webkit-box-shadow: 1px 1px 3px #aaa;
-  box-shadow: 1px 1px 3px #aaa;
+	-moz-box-shadow: 1px 1px 4px #aaa;
+  -webkit-box-shadow: 1px 1px 4px #aaa;
+  box-shadow: 1px 1px 4px #aaa;
 }
 .item:hover {
 	-moz-box-shadow: 0px 0px 5px green;
@@ -38,22 +38,19 @@ h1, h2, h3, h4 {
   box-shadow: 0px 0px 5px green;
 }
 
-.item:hover a, .item:hover h2, .item:hover h3, .item:hover h4 {
-  color: green;
-}
-
+a{text-decoration: none; color:#444;}
+a:hover{text-decoration: none; color:green;}
+.item:hover a, .item:hover h2, .item:hover h3, .item:hover h4 {color: green;}
 .item p, .item h1, .item h2, .item h3, .item h4 {padding: 5px 3px;}
-
 .subtitle {font-weight: bold;}
 
-a{text-decoration: none; color:#444;}
-
-a:hover{text-decoration: none; color:green;}
+p.nohighlight, 
+p.nohighlight:hover{text-decoration: none; color:#333; font-weight: normal}
 
 .main_title, .main_title a {
   text-align: center;
   color: green;
-  margin-top: 12px;
+  margin-top: 10px;
   text-shadow: 1px 1px 4px #ACA;
 }
 .clickable {cursor:pointer;}
