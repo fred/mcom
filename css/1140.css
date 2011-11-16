@@ -11,36 +11,12 @@ figure img{width:100%}
 
 body {
   font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   color: #060;
   min-width: 300px;
 }
 h1, h2, h3, h4 {
   color:green;
-}
-
-.date {
-  font-size: 85%;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #bbb;
-  font-size: 10px;
-  font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
-  font-weight: 100;	
-}
-.headline {
-  font: bold 34px "Century Schoolbook", Georgia, Times, serif;
-	color: #333;
-	line-height: 90%;
-	margin: .2em 0 .4em 0;
-	letter-spacing: -2px;
-}
-.tag {
-  color: #76879b;
-  font-size: 10px;
-  margin: 5px;
-  font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
-  font-size: 11px;
 }
 
 .item {
@@ -75,8 +51,9 @@ a{text-decoration: none; color:#444;}
 a:hover{text-decoration: none; color:green;}
 
 .main_title, .main_title a {
-  text-align: center; 
-  color:green; margin-top:10px; 
+  text-align: center;
+  color: green;
+  margin-top: 12px;
   text-shadow: 1px 1px 4px #ACA;
 }
 .clickable {cursor:pointer;}
@@ -176,6 +153,15 @@ img {
 	  line-height: 1.5em;
 	}
 	
+	.main_title, .main_title a {
+    margin-top: 5px;
+  }
+	
+	.item {
+    margin: 10px 0 0 0;
+  }
+  
+	
 }
 
 
@@ -184,9 +170,16 @@ img {
 @media handheld, only screen and (max-width: 767px) {
 
 	body {
-	  font-size: 15px;
+	  font-size: 16px;
 	  -webkit-text-size-adjust: none;
 	}
+	
+	.main_title, .main_title a {
+    margin-top: 10px;
+  }
+  .item {
+    margin: 15px 0 0 0;
+  }
 	
 	.row, body, .container {
   	width: 100%;
