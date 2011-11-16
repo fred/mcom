@@ -37,13 +37,15 @@ body {
 
 a{text-decoration: none; color:#444;}
 a:hover{text-decoration: none; color:green;}
-.item:hover a, .item:hover h2, .item:hover h3, .item:hover h4 {color: green;}
+.item:hover a, .item:hover h2, .item:hover h3 {color: green;}
 .item p, .item h1, .item h2, .item h3, .item h4 {padding: 5px 3px;}
 .subtitle {font-weight: bold; color:#333;}
 
 .nohighlight,
-p.nohighlight,
-p.nohighlight:hover{text-decoration: none; color:#333;}
+p.nohighlight {text-decoration: none; color:#333;}
+
+h4 {font-size:15px;}
+h4.nohighlight:hover {color:green;}
 
 .main_title, .main_title a {
   text-align: center;
